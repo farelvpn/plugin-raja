@@ -22,7 +22,7 @@ password="$Pass"
 useradd -e "$exp_system" -M -N -s /bin/false "$username" && echo "$username:$password" | chpasswd
 
 # Simpan limit ip
-limit_ip="5"
+limit_ip="15"
 echo "$limit_ip" > /etc/xray/limit/ip/ssh/$username
 
 # Simpan database akun
