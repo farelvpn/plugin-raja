@@ -77,10 +77,10 @@ EOF
 asu=`cat<<EOF
       {
       "v": "2",
-      "ps": "${user}",
+      "ps": "${uuid}",
       "add": "${domain}",
       "port": "443",
-      "id": "${user}",
+      "id": "${uuid}",
       "aid": "0",
       "net": "ws",
       "path": "/vmess",
@@ -92,10 +92,10 @@ EOF`
 ask=`cat<<EOF
       {
       "v": "2",
-      "ps": "${user}",
+      "ps": "${uuid}",
       "add": "${domain}",
       "port": "80",
-      "id": "${user}",
+      "id": "${uuid}",
       "aid": "0",
       "net": "ws",
       "path": "/vmess",
@@ -107,10 +107,10 @@ EOF`
 grpc=`cat<<EOF
       {
       "v": "2",
-      "ps": "${user}",
+      "ps": "${uuid}",
       "add": "${domain}",
       "port": "443",
-      "id": "${user}",
+      "id": "${uuid}",
       "aid": "0",
       "net": "grpc",
       "path": "vmess-grpc",
