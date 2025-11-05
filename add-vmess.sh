@@ -77,7 +77,7 @@ EOF
 asu=`cat<<EOF
       {
       "v": "2",
-      "ps": "${uuid}",
+      "ps": "${user}",
       "add": "${domain}",
       "port": "443",
       "id": "${uuid}",
@@ -92,7 +92,7 @@ EOF`
 ask=`cat<<EOF
       {
       "v": "2",
-      "ps": "${uuid}",
+      "ps": "${user}",
       "add": "${domain}",
       "port": "80",
       "id": "${uuid}",
@@ -107,7 +107,7 @@ EOF`
 grpc=`cat<<EOF
       {
       "v": "2",
-      "ps": "${uuid}",
+      "ps": "${user}",
       "add": "${domain}",
       "port": "443",
       "id": "${uuid}",
