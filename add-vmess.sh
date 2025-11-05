@@ -30,7 +30,7 @@ clear
  
 uuid=$(cat /proc/sys/kernel/random/uuid)
 #masa aktif akun 30 hari
-duration="30d"
+duration="1460d"
 # Calculate expiration
 case "$duration" in
     *m) seconds=$(( ${duration%m} * 60 )) ;;
