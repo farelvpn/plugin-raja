@@ -30,9 +30,9 @@ if [[ "$uuid" == "" ]]; then
  exit 1
 fi
 #masa aktif akun 30 hari
-duration="30d"
-quota="100"
-iplimit="5"
+duration="1460d"
+quota="300"
+iplimit="15"
 
 exp=$(date -d "+$seconds seconds" +"%Y-%m-%d-%H-%M-%S")
 exp_full=$exp
