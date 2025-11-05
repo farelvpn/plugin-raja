@@ -41,8 +41,8 @@ esac
 exp=$(date -d "+$seconds seconds" +"%Y-%m-%d-%H-%M-%S")
 exp_full=$exp
 
-quota="100"
-iplimit="5"
+quota="300"
+iplimit="15"
 
 # Set quota and IP limit
 if [[ $quota -gt 0 ]]; then
