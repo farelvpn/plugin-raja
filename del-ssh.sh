@@ -18,6 +18,6 @@ Pengguna=$user
          mv "$DB_PATH/$Pengguna.txt" "$RECOVERY_PATH/$Pengguna.txt"
 
 clear
-systemctl daemon-reload
-systemctl restart ssh sshd
-systemctl restart ssh-ws cron
+systemctl daemon-reload > /dev/null 2>&1
+systemctl restart ssh sshd > /dev/null 2>&1
+systemctl restart ssh-ws cron > /dev/null 2>&1
